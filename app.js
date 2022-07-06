@@ -2,7 +2,7 @@ const express = require("express");
 const request = require("request");
 const https = require("https")
 const client = require("@mailchimp/mailchimp_marketing");
-const { API_KEY, AUDIENCE_ID } = require('./keys');
+const { API_KEY, AUDIENCE_ID, SERVER } = require('./keys');
 
 const apiKey = "878ff5e7a67f1c7e41565830d44470ac-us13";
 const audienceId = "e27b5c95cb";
@@ -19,7 +19,7 @@ app.get("/", function(req, res) {
 
 client.setConfig({
   apiKey: API_KEY,
-  server: "us13",
+  server: SERVER,
 });
 
 app.post("/", function(req, res) {
