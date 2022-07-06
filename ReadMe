@@ -1,0 +1,6 @@
+npm init
+install dependencies
+
+Data saved in Mailchimp Database.
+
+start server: nodemon/node app.js
