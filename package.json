@@ -13,5 +13,14 @@
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waitingjonas/Newsletter-Signup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Waitingjonas/Newsletter-Signup/issues"
+  },
+  "homepage": "https://github.com/Waitingjonas/Newsletter-Signup#readme"
 }
