@@ -2,5 +2,6 @@ npm init
 npm install dependencies
 
 Data saved in Mailchimp Database.
+You need API-key from them.
 
 start server: nodemon/node app.js
